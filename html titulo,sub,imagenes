@@ -1,0 +1,58 @@
+Progra 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacho</title> <!--titulo de la pagina-->
+</head>
+<body>
+    <form>
+        <label for="nombre">Nombre</label> <!--LABEL el tipo de dato que quiero almacenar-->
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+    </form>
+    <p>Bienvenidos a la chamba digital  ( ͡° ͜ʖ ͡°) </p>
+    <h1> Titulo grande con h1</h1>
+    <h3>⠀⠀⠀⠀⠀⠀⠀⣠⣤⣤⣤⣤⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠀⢰⡿⠋⠁⠀⠀⠈⠉⠙⠻⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⢀⣿⠇⠀⢀⣴⣶⡾⠿⠿⠿⢿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⣀⣀⣸⡿⠀⠀⢸⣿⣇⠀⠀⠀⠀⠀⠀⠙⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⣾⡟⠛⣿⡇⠀⠀⢸⣿⣿⣷⣤⣤⣤⣤⣶⣶⣿⠇⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀
+        ⢀⣿⠀⢀⣿⡇⠀⠀⠀⠻⢿⣿⣿⣿⣿⣿⠿⣿⡏⠀⠀⠀⠀⢴⣶⣶⣿⣿⣿⣆
+        ⢸⣿⠀⢸⣿⡇⠀⠀⠀⠀⠀⠈⠉⠁⠀⠀⠀⣿⡇⣀⣠⣴⣾⣮⣝⠿⠿⠿⣻⡟
+        ⢸⣿⠀⠘⣿⡇⠀⠀⠀⠀⠀⠀⠀⣠⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠁⠉⠀
+        ⠸⣿⠀⠀⣿⡇⠀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠉⠀⠀⠀⠀
+        ⠀⠻⣷⣶⣿⣇⠀⠀⠀⢠⣼⣿⣿⣿⣿⣿⣿⣿⣛⣛⣻⠉⠁⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⢸⣿⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⢸⣿⣀⣀⣀⣼⡿⢿⣿⣿⣿⣿⣿⡿⣿⣿⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        ⠀⠀⠀⠀⠀⠙⠛⠛⠛⠋⠁⠀⠙⠻⠿⠟⠋⠑⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</h3>
+    <h6>Sub sun titulo h6</h6>
+    
+    hola <br> mucho gusto <br> <!-- <br> se utiliza para hacer un salto de linea-->
+    
+    <b>holi( ͡° ͜ʖ ͡°) </b> <br> <!-- <b> se utiliza para tener el texto en negrilla-->
+    <u>teemo</u> <br> <!-- <u> texti con subrayado-->
+    <i>nachito</i> <br> <!-- <i> texto en cursiva -->
+  
+    <h1><u><i> ema </i></u></ h1> <br> <!--todos lo anterior-->
+    <hr> <!--linea-->
+    <h1><u><i> sitios frecuentes  </i></u></h1> <br>
+    
+    <p>seleccionar <span style="color:blue">texto para mostrar como span</p>
+    <!--<a href="" mandar a otro sitio a traves de un link y target"_blank"> evita que se cierre la paguina actual-->
+    <a href=" https://www.google.cl" target"_blank"> ir al google </a> <br>
+    <a href=" https://www.duoc.cl" target"_blank"> ir al duoc </a> <br>
+    <a href=" https://www.youtube.com" target"_blank"> ir al youtube </a> <br>
+    <a href=" https://www.netflix.com" target"_blank"> ir al netflix </a> <br>
+    
+    <!--mostrar imagen -->
+    <p>nacho pelon</p>
+    <img src="img/nachopelon.jpg" width="100" heidht="90" />
+    <!--FORM recopila info del usuario-->
+    <form>
+        <input />
+    </form>
+</body>
+</html>
+
+
