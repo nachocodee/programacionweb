@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>mis opciones de sistema</p>
+    <ul type="circle" <!--square-->
+        <li>opcion 1</li>
+        <li>opcion 2</li>
+        <li>opcion 3</li>
+        <li>opcion 4</li>
+    </ul>
+
+    <p>mis opciones de sistema version 2</p>
+    <ol type="" <!-- a,A,I -->
+        <li>opcion 1</li>
+        <li>opcion 2</li>
+        <li>opcion 3</li>
+        <li>opcion 4</li>
+    </ol>
+   <a href="http://www.google.cl" target="_blamk"> <img src="amongus.jpg" width="300" height="300" > <a/>
+
+    <table border="1"> <!--- TABLE crear tablas TH el nombre de los datos TD datos-->
+        <tr>
+            <th>nombre</td>
+            <th>apellido</td>
+            <th>telefono</td>
+        </tr>
+        <tr>
+            <td>luis</td>
+            <td>diaz</td>
+            <td>569 67501656</td>
+        </tr>
+        <tr>
+            <td>nacho</td>
+            <td>gonzalez</td>
+            <td>569 67501656</td>
+        </tr>
+        <tr>
+            <td>nacha</td>
+            <td>barraza</td>
+            <td>569 67501656</td>
+        </tr>
+    </table>
+    <P>comando para automatizar tabla</P>
+    table>tr*3>td*2 <!--crear tabla de 3 filas(tr) y 2 columnas(td) -->
+    <br>
+    
+    <a href="nacho2.html">ir a la segunda pagina <!--hacer pagina navegable-->
+</body>
+</html>
