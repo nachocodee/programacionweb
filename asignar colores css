@@ -7,7 +7,17 @@
     <style>
         h1{
             font-family: 'Franklin Gothic Medium'; /*todos los titulos quedan de mismo color y fuente*/
-            color:burlywood
+            color:burlywood;
+            text-transform:capitalize; /*capitalize vuelve las primeras letras mayusculas de los h1*/
+        }
+        body{
+            background-color: slategray;/*color de fondo de la pagina*/
+        }
+        p{
+            color:white;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 30px;
         }
     </style>
 </head>
