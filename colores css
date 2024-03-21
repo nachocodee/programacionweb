@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS en linea</title>
+</head>
+<body>
+    <p>Aplicar reglas de estilo "en linea"</p>
+    <h1 style="color:crimson; text-align: center;">rojito</h1>
+    <h1 style="color:rgb(95, 58, 65);">cambiar color</h1>
+    <h1 style="color:#d3bcbc;">cambiar color</h1>
+    <br>
+    <a href="nachoCSS2.html">ir a la cuarta pagina
+</body>
+</html>
