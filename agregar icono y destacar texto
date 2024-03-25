@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjuntar documento css</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="salchi.jpg" type="image/x-icon">
+</head>
+<body>
+    <h1 id="tituloPrincipal">Mi titulo modificado mediante id </h1> <!--Es clave primaria osea que no se puede repetir-->
+    <h1>Mi titulo modificado mediante class </h1> <!--Abarca mas de un elemnto-->
+    <p class="fromatoParrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem corrupti ea, minus quo necessitatibus atque neque incidunt ut ratione veniam placeat error cupiditate perferendis soluta maxime nihil minima sed aut.</p>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente error animi voluptas laboriosam? At amet error assumenda, ab totam tenetur ea cumque corporis qui autem illo blanditiis modi id esse.</P>
+    <p class="fromatoParrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, consequatur blanditiis corporis eveniet itaque enim nulla. Saepe, a ab neque laudantium autem dicta aperiam eaque expedita minima quod at impedit.</p>
+</body>
+</html>
