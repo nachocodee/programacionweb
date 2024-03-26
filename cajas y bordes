@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>centrar y border</title>
+    <style>
+        .center{
+            width: 50%;
+            margin: auto;
+            border: 5px solid red;
+            padding: 5px;
+            text-align: justify;
+        }
+        .lbl{
+            border: 5px solid blue; 
+            margin-top:10px
+        }
+    </style>
+</head>
+<body>
+    <div class="centrar">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ad quod nihil ex vel blanditiis in soluta a perferendis dolor esse temporibus ratione similique odio porro suscipit est sed iure!
+    </div>
+    <label class="label1 lb1">1111</label>
+    <label class="label2 lb2">22222</label>
+</body>
+</html>
