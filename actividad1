@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayuda a un peludo</title>
+    <style>
+         body{
+            background-color: black;/*color de fondo de la pagina*/
+        }
+        a{
+            color:white;
+            text-decoration: none;
+        }
+        h1{
+            width: ;
+            text-align: center;
+            color: white;
+            background-color: aqua ;
+        }
+        p1{
+            
+            color: white;
+            text-align: center;
+            background-color: aqua ;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="menu">
+    <a href="inicio.html"target="_blank">Inicio </a> <br>
+    <a href="nosotros.html"target="_blank">Nosotros </a> <br>
+    <a href="perros.html"target="_blank">Perros </a> <br>
+    <a href="gatos.html"target="_blank">Gatos </a> <br>
+    <a href="contactos.html"target="_blank">Contactos </a> <br>
+    </div>
+ <h1>lorem</h1>
+ <p1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam labore, voluptas quis aspernatur sapiente, tenetur porro consectetur aliquam earum assumenda, nihil nostrum. Blanditiis enim aspernatur officiis ad, inventore dolorum esse.</p>
+    
+ <h1>lorem</h1>
+ <p2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam labore, voluptas quis aspernatur sapiente, tenetur porro consectetur aliquam earum assumenda, nihil nostrum. Blanditiis enim aspernatur officiis ad, inventore dolorum esse.</p>
+    
+ <h>1lorem</h1>
+ <p3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam labore, voluptas quis aspernatur sapiente, tenetur porro consectetur aliquam earum assumenda, nihil nostrum. Blanditiis enim aspernatur officiis ad, inventore dolorum esse.</p>
+    
+ <h1>lorem</h1>
+ <p4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam labore, voluptas quis aspernatur sapiente, tenetur porro consectetur aliquam earum assumenda, nihil nostrum. Blanditiis enim aspernatur officiis ad, inventore dolorum esse.</p>
+    
+</body>
+</html>
