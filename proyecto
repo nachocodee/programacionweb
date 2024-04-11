@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo</title>
+    <style>
+         h1{
+            font-family: 'Franklin Gothic Medium'; /*todos los titulos quedan de mismo color y fuente*/
+            color:yellow; text-align: center;
+            text-transform:capitalize; /*capitalize vuelve las primeras letras mayusculas de los h1*/
+        }
+
+    </style>
+</head>
+    
+
+<body>
+    <h1>¡Bienvenido al catalogo de comida!</h1>
+    <p>Encuentra los mejores antojos en Comilon</p>
+    
+</body>
+</html>
