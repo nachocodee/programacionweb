@@ -1,3 +1,4 @@
+PaginaInicio
 <!DOCTYPE html>
 <html lang="es">
 
@@ -63,27 +64,27 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="#" style="color: black;">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="paginaNosotros.html" target="_blank">Nosotros</a>
+                        <a class="nav-link" href="paginaNosotros.html" target="_blank" style="color: black;">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="paginaCatalogo.html" target="_blank">Catálogo</a>
+                        <a class="nav-link" href="paginaCatalogo.html" target="_blank" style="color: black;">Catálogo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="paginaContacto.html" target="_blank">Contáctanos</a>
+                        <a class="nav-link" href="paginaContacto.html" target="_blank" style="color: black;">Contáctanos</a>
                     </li>
                 </ul>
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link" href="paginaRegistro.html" target="_blank">Registrarse</a>
+                        <a class="nav-link" href="paginaRegistro.html" target="_blank" style="color: black;">Registrarse</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="paginaInicioSesion.html" target="_blank">Iniciar sesión</a>
+                        <a class="nav-link" href="paginaInicioSesion.html" target="_blank" style="color: black;">Iniciar sesión</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="paginaCarrito.html" target="_blank">
+                        <a class="nav-link" href="paginaCarrito.html" target="_blank" style="color: black;">
                             Carrito <i class="bi bi-cart"></i>
                         </a>
                     </li>
@@ -126,3 +127,4 @@
 </body>
 
 </html>
+
