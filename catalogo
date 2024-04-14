@@ -1,3 +1,4 @@
+PaginaCatalogo
 <!DOCTYPE html>
 <html lang="es">
 
@@ -18,17 +19,52 @@
         }
 
         .card {
-            height: 400px; /* Altura fija para todas las tarjetas */
-        }
+            height: 500px; /* Altura fija para todas las tarjetas */
+            /**/
+            width: 100%;
+            margin-bottom: 20px;
+            position: relative;
+        }   
 
         .card-img-top {
             object-fit: cover; /* Ajusta la imagen para que cubra toda la tarjeta */
-            height: 70%; /* Altura de la imagen dentro de la tarjeta */
+            /*height: 70%; /* Altura de la imagen dentro de la tarjeta */
+            /**/
+            height: 200px;
+            width: 100%;
         }
+        .card-body {
+            /*max-height: 500px; /* Ajusta este valor según sea necesario */
+            /*overflow: auto; /* Añade una barra de desplazamiento si el contenido excede la altura máxima */
+            /**/
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            height: 100%;
+        }
+        .card-text {
+            font-size: 14px; /* Ajustar el tamaño de la fuente del texto según sea necesario */
+            /**/
+            margin-bottom: 20px;
+        }
+        .btn-agregar {
+            /*width: 100%; /* El botón ocupa todo el ancho del contenedor */
+            /*margin-top: 10px; /* Espacio entre el texto y el botón */
+            /**/
+            position: absolute;
+            bottom: 10px;
+            right: 10px;                 
+        }
+        
+
     </style>
 </head>
 
 <body>
+   
+
+    
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -43,27 +79,27 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="#" style="color: black;">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="paginaNosotros.html" target="_blank">Nosotros</a>
+                        <a class="nav-link" href="paginaNosotros.html" target="_blank" style="color: black;">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="paginaCatalogo.html" target="_blank">Catálogo</a>
+                        <a class="nav-link" href="paginaCatalogo.html" target="_blank" style="color: black;">Catálogo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="paginaContacto.html" target="_blank">Contáctanos</a>
+                        <a class="nav-link" href="paginaContacto.html" target="_blank" style="color: black;">Contáctanos</a>
                     </li>
                 </ul>
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link" href="paginaRegistro.html" target="_blank">Registrarse</a>
+                        <a class="nav-link" href="paginaRegistro.html" target="_blank" style="color: black;">Registrarse</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="paginaInicioSesion.html" target="_blank">Iniciar sesión</a>
+                        <a class="nav-link" href="paginaInicioSesion.html" target="_blank" style="color: black;">Iniciar sesión</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="paginaCarrito.html" target="_blank">
+                        <a class="nav-link" href="paginaCarrito.html" target="_blank" style="color: black;">
                             Carrito <i class="bi bi-cart"></i>
                         </a>
                     </li>
@@ -95,7 +131,11 @@
                             -Ajo<br>
                             -Aceite de oliva virgen extra<br>
                             -Sal<br>
-                            -Pimienta negra</p><br>
+                            -Pimienta negra                           
+                        </p>
+                        <button class="btn btn-primary btn-agregar">Agregar al carrito</button>
+                        
+                            
                     </div>
                 </div>
             </div>
@@ -103,7 +143,20 @@
                 <div class="card">
                     <img src="pescado.png" class="card-img-top" alt="">
                     <div class="card-body">
-                        <p class="card-text">Texto de la imagen 2</p>
+                        <p class="card-text">Pescado con papas rusticas<br>
+                            Descripción: <br>
+                            Nuestro pescado fresco, cuidadosamente seleccionado del día.<br>
+                            
+                            Ingredientes:<br>
+                            
+                            -Pescado fresco del día<br>
+                            -Papas orgánicas<br>
+                            -Aceite de oliva virgen extra<br>
+                            -Hierbas frescas (como romero, tomillo y perejil)<br>
+                            -Sal marina<br>
+                            -Pimienta negra molida
+                        </p>
+                        <button class="btn btn-primary btn-agregar">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
@@ -111,7 +164,21 @@
                 <div class="card">
                     <img src="fideosSalsa.jpg" class="card-img-top" alt="">
                     <div class="card-body">
-                        <p class="card-text">Texto de la imagen 3</p>
+                        <p class="card-text">Fideos con Salsa Alfredo<br>
+
+                            Disfruta de una experiencia gastronómica italiana auténtica con nuestros deliciosos Fideos con Salsa Alfredo.<br>
+                            
+                            Ingredientes:<br>
+                            
+                            -Fideos de pasta fresca<br>
+                            -Mantequilla de alta calidad<br>
+                            -Nata fresca<br>
+                            -Ajo fresco<br>
+                            -Queso parmesano recién rallado<br>
+                            -Sal marina<br>
+                            -Pimienta negra recién molida
+                        </p>
+                        <button class="btn btn-primary btn-agregar">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
@@ -121,7 +188,18 @@
                 <div class="card">
                     <img src="arrozPollito.jpg" class="card-img-top" alt="">
                     <div class="card-body">
-                        <p class="card-text">Texto de la imagen 4</p>
+                        <p class="card-text">Gohan: Arroz Japonés Tradicional<br>
+
+                            Embárcate en un viaje culinario a la tierra del sol naciente con nuestro exquisito Gohan<br>
+                            
+                            Ingredientes:<br>
+                            
+                            -Arroz japonés de alta calidad<br>
+                            -Agua purificada<br>
+                            -Palta<br>
+                            -Pollo
+                        </p>
+                        <button class="btn btn-primary btn-agregar">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
@@ -129,7 +207,24 @@
                 <div class="card">
                     <img src="carne.png" class="card-img-top" alt="">
                     <div class="card-body">
-                        <p class="card-text">Texto de la imagen 5</p>
+                        <p class="card-text">Arroz con Carne de Lomo Vetado<br>
+
+                            Sumérgete en una experiencia culinaria de lujo con nuestro exquisito Arroz con Carne de Lomo Vetado.<br>
+                            
+                            Ingredientes:<br>
+                            
+                            -Lomo vetado de alta calidad, cortado en trozos tiernos<br>
+                            -Arroz de grano largo<br>
+                            -Cebolla<br>
+                            -Pimiento rojo y verde<br>
+                            -Zanahorias<br>
+                            -Salsa de soja<br>
+                            -Aceite de sésamo<br>
+                            -Ajo<br>
+                            -Jengibre fresco<br>
+                            -Cilantro fresco para decorar
+                        </p>
+                        <button class="btn btn-primary btn-agregar">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
@@ -137,7 +232,24 @@
                 <div class="card">
                     <img src="carnemongoliana.png" class="card-img-top" alt="">
                     <div class="card-body">
-                        <p class="card-text">Texto de la imagen 6</p>
+                        <p class="card-text">Arroz con Carne Mongoliana<br>
+
+                            Sumérgete en una experiencia culinaria llena de sabores intensos y exóticos con nuestro Arroz con Carne Mongoliana.<br>
+                            
+                            Ingredientes:<br>
+                            
+                            -Carne de res de alta calidad, cortada en tiras finas<br>
+                            -Arroz de grano largo<br>
+                            -Cebolla<br>
+                            -Pimiento verde<br>
+                            -Salsa de soja<br>
+                            -Aceite de sésamo<br>
+                            -Jengibre fresco<br>
+                            -Ajo<br>
+                            -Azúcar morena<br>
+                            -Sésamo tostado para decorar
+                        </p>
+                        <button class="btn btn-primary btn-agregar">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
@@ -147,7 +259,23 @@
                 <div class="card">
                     <img src="Cazuela.png" class="card-img-top" alt="">
                     <div class="card-body">
-                        <p class="card-text">Texto de la imagen 7</p>
+                        <p class="card-text">Cazuela Variedad de Carnes<br>
+
+                            Déjate llevar por una experiencia culinaria reconfortante y llena de sabor con nuestra exquisita Cazuela Variedad de Carnes.<br>
+                            
+                            Ingredientes:<br>
+                            
+                            -Ternera, cerdo y pollo, cortados en trozos tiernos<br>
+                            -Zanahorias<br>
+                            -Papas<br>
+                            -Cebollas<br>
+                            -Tomates<br>
+                            -Caldo de carne o pollo<br>
+                            -Hierbas frescas (como tomillo, romero y laurel)<br>
+                            -Sal y pimienta al gusto
+                        </p>
+                        <button class="btn btn-primary btn-agregar">Agregar al carrito</button>
+                            
                     </div>
                 </div>
             </div>
@@ -155,7 +283,23 @@
                 <div class="card">
                     <img src="Fideos.png" class="card-img-top" alt="">
                     <div class="card-body">
-                        <p class="card-text">Texto de la imagen 8</p>
+                        <p class="card-text">Fideos con Salsa Roja<br>
+
+                            Déjate seducir por una explosión de sabores en cada bocado con nuestros deliciosos Fideos con Salsa Roja.<br>
+                            
+                            Ingredientes:<br>
+                            
+                            -Fideos de pasta<br>
+                            -Carne de vacuno<br> 
+                            -Tomates maduros<br>
+                            -Cebolla<br>
+                            -Ajo<br>
+                            -Aceite de oliva virgen extra<br>
+                            -Hierbas frescas (albahaca, orégano, etc.)<br>
+                            -Sal y pimienta al gusto<br>
+                            -Queso parmesano rallado (opcional, para servir)
+                        </p>
+                        <button class="btn btn-primary btn-agregar">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
@@ -175,13 +319,23 @@
                             -Galletas de vainilla<br>
                             -Mantequilla<br>
                             -Azúcar<br>
-                            -Gelatina de frambuesa<br></p>
+                            -Gelatina de frambuesa
+                        </p>
+                        <button class="btn btn-primary btn-agregar">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+    <script>
+        // Función para mostrar la alerta al hacer clic en el botón
+        document.querySelectorAll('.btn-agregar').forEach(button => {
+            button.addEventListener('click', () => {
+                alert('El producto se agregó exitosamente al carrito');
+            });
+        });
+    </script>
 </body>
 
 </html>
+
