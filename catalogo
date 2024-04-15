@@ -1,4 +1,4 @@
-PaginaCatalogo
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -61,10 +61,7 @@ PaginaCatalogo
     </style>
 </head>
 
-<body>
-   
-
-    
+<body>   
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -117,7 +114,7 @@ PaginaCatalogo
                 <div class="card">
                     <img src="pesto.jpeg" class="card-img-top" alt="">
                     <div class="card-body">
-                        <p class="card-text">Fideos con Salsa Pesto<br>
+                        <p class="card-text"><strong>FIDEOS CON SALSA PESTO</strong><br>
 
                             Descripción:<br>
                             Viaja a Italia con cada bocado de nuestros Fideos con Salsa Pesto.<br>
@@ -130,8 +127,7 @@ PaginaCatalogo
                             -Queso parmesano rallado<br>
                             -Ajo<br>
                             -Aceite de oliva virgen extra<br>
-                            -Sal<br>
-                            -Pimienta negra                           
+                            <strong>PRECIO: $15.000 </strong>                          
                         </p>
                         <button class="btn btn-primary btn-agregar">Agregar al carrito</button>
                         
@@ -143,7 +139,7 @@ PaginaCatalogo
                 <div class="card">
                     <img src="pescado.png" class="card-img-top" alt="">
                     <div class="card-body">
-                        <p class="card-text">Pescado con papas rusticas<br>
+                        <p class="card-text"><strong>PESCADO CON PAPAS RUSTICAS</strong><br>
                             Descripción: <br>
                             Nuestro pescado fresco, cuidadosamente seleccionado del día.<br>
                             
@@ -154,7 +150,8 @@ PaginaCatalogo
                             -Aceite de oliva virgen extra<br>
                             -Hierbas frescas (como romero, tomillo y perejil)<br>
                             -Sal marina<br>
-                            -Pimienta negra molida
+                            -Pimienta negra molida<br>
+                            -<strong>PRECIO: $18.990</strong>
                         </p>
                         <button class="btn btn-primary btn-agregar">Agregar al carrito</button>
                     </div>
@@ -164,7 +161,7 @@ PaginaCatalogo
                 <div class="card">
                     <img src="fideosSalsa.jpg" class="card-img-top" alt="">
                     <div class="card-body">
-                        <p class="card-text">Fideos con Salsa Alfredo<br>
+                        <p class="card-text"><strong>FIDEOS CON SALSA ALFREDO</strong><br>
 
                             Disfruta de una experiencia gastronómica italiana auténtica con nuestros deliciosos Fideos con Salsa Alfredo.<br>
                             
@@ -176,7 +173,8 @@ PaginaCatalogo
                             -Ajo fresco<br>
                             -Queso parmesano recién rallado<br>
                             -Sal marina<br>
-                            -Pimienta negra recién molida
+                            -Pimienta negra recién molida<br>
+                            -<strong>PRECIO: $13.000 </strong>
                         </p>
                         <button class="btn btn-primary btn-agregar">Agregar al carrito</button>
                     </div>
@@ -188,7 +186,7 @@ PaginaCatalogo
                 <div class="card">
                     <img src="arrozPollito.jpg" class="card-img-top" alt="">
                     <div class="card-body">
-                        <p class="card-text">Gohan: Arroz Japonés Tradicional<br>
+                        <p class="card-text"><strong>GOHAN: ARROZ JAPONES TRADICIONAL</strong><br>
 
                             Embárcate en un viaje culinario a la tierra del sol naciente con nuestro exquisito Gohan<br>
                             
@@ -197,7 +195,8 @@ PaginaCatalogo
                             -Arroz japonés de alta calidad<br>
                             -Agua purificada<br>
                             -Palta<br>
-                            -Pollo
+                            -Pollo<br>
+                            -<strong>PRECIO: $12.000</strong>
                         </p>
                         <button class="btn btn-primary btn-agregar">Agregar al carrito</button>
                     </div>
@@ -207,7 +206,7 @@ PaginaCatalogo
                 <div class="card">
                     <img src="carne.png" class="card-img-top" alt="">
                     <div class="card-body">
-                        <p class="card-text">Arroz con Carne de Lomo Vetado<br>
+                        <p class="card-text"><strong>ARROZ CON CARNE DE LOMO VETADO</strong><br>
 
                             Sumérgete en una experiencia culinaria de lujo con nuestro exquisito Arroz con Carne de Lomo Vetado.<br>
                             
@@ -215,14 +214,13 @@ PaginaCatalogo
                             
                             -Lomo vetado de alta calidad, cortado en trozos tiernos<br>
                             -Arroz de grano largo<br>
-                            -Cebolla<br>
                             -Pimiento rojo y verde<br>
                             -Zanahorias<br>
                             -Salsa de soja<br>
                             -Aceite de sésamo<br>
                             -Ajo<br>
-                            -Jengibre fresco<br>
-                            -Cilantro fresco para decorar
+                            -Cilantro fresco para decorar<br>
+                            -<strong>PRECIO: $18.000</strong>
                         </p>
                         <button class="btn btn-primary btn-agregar">Agregar al carrito</button>
                     </div>
@@ -232,7 +230,7 @@ PaginaCatalogo
                 <div class="card">
                     <img src="carnemongoliana.png" class="card-img-top" alt="">
                     <div class="card-body">
-                        <p class="card-text">Arroz con Carne Mongoliana<br>
+                        <p class="card-text"><strong>ARROZ CON CARNE MONGOLIANA</strong><br>
 
                             Sumérgete en una experiencia culinaria llena de sabores intensos y exóticos con nuestro Arroz con Carne Mongoliana.<br>
                             
@@ -245,9 +243,7 @@ PaginaCatalogo
                             -Salsa de soja<br>
                             -Aceite de sésamo<br>
                             -Jengibre fresco<br>
-                            -Ajo<br>
-                            -Azúcar morena<br>
-                            -Sésamo tostado para decorar
+                            -<strong>PRECIO: $11.000</strong> 
                         </p>
                         <button class="btn btn-primary btn-agregar">Agregar al carrito</button>
                     </div>
@@ -259,7 +255,7 @@ PaginaCatalogo
                 <div class="card">
                     <img src="Cazuela.png" class="card-img-top" alt="">
                     <div class="card-body">
-                        <p class="card-text">Cazuela Variedad de Carnes<br>
+                        <p class="card-text"><strong>CAZUELA VARIEDAD DE CARNE</strong><br>
 
                             Déjate llevar por una experiencia culinaria reconfortante y llena de sabor con nuestra exquisita Cazuela Variedad de Carnes.<br>
                             
@@ -270,9 +266,9 @@ PaginaCatalogo
                             -Papas<br>
                             -Cebollas<br>
                             -Tomates<br>
-                            -Caldo de carne o pollo<br>
                             -Hierbas frescas (como tomillo, romero y laurel)<br>
-                            -Sal y pimienta al gusto
+                            -Sal y pimienta al gusto<br>
+                            -<strong>PRECIO: $18.990</strong> 
                         </p>
                         <button class="btn btn-primary btn-agregar">Agregar al carrito</button>
                             
@@ -283,7 +279,7 @@ PaginaCatalogo
                 <div class="card">
                     <img src="Fideos.png" class="card-img-top" alt="">
                     <div class="card-body">
-                        <p class="card-text">Fideos con Salsa Roja<br>
+                        <p class="card-text"><strong>FIDEOS CON SALSA ROJA</strong><br>
 
                             Déjate seducir por una explosión de sabores en cada bocado con nuestros deliciosos Fideos con Salsa Roja.<br>
                             
@@ -294,10 +290,9 @@ PaginaCatalogo
                             -Tomates maduros<br>
                             -Cebolla<br>
                             -Ajo<br>
-                            -Aceite de oliva virgen extra<br>
                             -Hierbas frescas (albahaca, orégano, etc.)<br>
-                            -Sal y pimienta al gusto<br>
-                            -Queso parmesano rallado (opcional, para servir)
+                            -Queso parmesano rallado (opcional, para servir)<br>
+                            -<strong>PRECIO: $12.990</strong>
                         </p>
                         <button class="btn btn-primary btn-agregar">Agregar al carrito</button>
                     </div>
@@ -307,7 +302,7 @@ PaginaCatalogo
                 <div class="card">
                     <img src="cheesecake.jpg" class="card-img-top" alt="">
                     <div class="card-body">
-                        <p class="card-text">Cheesecake de Frambuesa<br>
+                        <p class="card-text"><strong>CHEESECAKE DE FRAMBUESA</strong><br>
 
                             Descripción:<br>
                             Delicioso cheesecake de frambuesa<br>
@@ -319,7 +314,8 @@ PaginaCatalogo
                             -Galletas de vainilla<br>
                             -Mantequilla<br>
                             -Azúcar<br>
-                            -Gelatina de frambuesa
+                            -Gelatina de frambuesa<br>
+                            -<strong>PRECIO: $7.990</strong>
                         </p>
                         <button class="btn btn-primary btn-agregar">Agregar al carrito</button>
                     </div>
