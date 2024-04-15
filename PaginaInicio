@@ -1,4 +1,3 @@
-PaginaInicio
 <!DOCTYPE html>
 <html lang="es">
 
@@ -46,6 +45,18 @@ PaginaInicio
             color: white;
         }
     </style>
+    <script>
+        function validateForm() {
+            var email = document.getElementById('inputEmail4').value;
+            var password = document.getElementById('inputPassword4').value;
+
+            if (email.trim() === '' || password.trim() === '') {
+                alert('Debe ingresar datos');
+                return false;
+            }
+            return true;
+        }
+    </script>
 </head>
 
 <body>
@@ -99,7 +110,7 @@ PaginaInicio
             <div class="card-body">
                 <h1 class="card-title">Inicio de sesión</h1>
                 <div class="container mt-4">
-                    <form class="row g-3">
+                    <form class="row g-3" id="loginForm" onsubmit="return validateForm()">
                         <div class="col-md-6">
                             <label for="inputEmail4" class="form-label">Email</label>
                             <input type="email" class="form-control" id="inputEmail4">
@@ -127,4 +138,3 @@ PaginaInicio
 </body>
 
 </html>
-
