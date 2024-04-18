@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+</head>
+<body>
+    <h1>Input disponibles</h1>
+    <input type="text" name="txtNombre"> <BR>
+    <input type="text" name="txtApellido" maxlenght="15"> <br> <!-- maxlenght: limitar cantidad de caracteres-->
+    <input type="text" placeholder="Mensaje"> <br> <!--placeholder: dejar un mensaje q dps se borra si ingresas algo-->
+    <input type="text" value="Mensaje por defecto"> <br> <!--value: asignar valor por defecto-->
+    <input type="text" readonly="readonly" value="mensaje"> <br> <!-- readonly: dejar un valor q no se puede borrar-->
+    <input type="text" disabled value="mensaje 2"> <br><!--el dato no se sube-->
+    <input type="text" title="guia para el usuario"> <br> <!--aparece un mensaje cuando se pasa el mouse por el input-->
+    <input type="text" size="2"> <br><!--tamaño para el input-->
+
+    <!--input para valores-->
+    <input type="number"> <br>
+    <input type="number" min="10" max="70" step="5"> <br><!--limite q quiera, step: de cuanto va subiendo, ej: d 5 en 5-->
+
+    <!--input para buscar elementos-->
+    <input type="search" placeholder="nombre producto"> <br>
+
+    <!--input fecha y hora-->
+    <input type="date"> <br>
+    <input type="datetime-local"> <br> <!--hora y fecha-->
+    <input type="time"> <br>
+
+    <!--input para archivos-->
+    <input type="file"> <br>
+    <input type="file" accept=".ppt, .pptx"> <br> <!--para elegir solo archivos tipo ppt-->
+
+    <input type="hidden" name="txtId"> <br> <!--sirve para ocultar alguna clave-->
+    <input type="password"> <br>
+
+    <!--input para escoger color-->
+    <input type="color">
+    
+    <!--opciones cajita-->
+    <input type="checkbox" name="chkHeroes" value="1">Pedro <br>
+    <input type="checkbox" name="chkHeroes" value="2">Carlita <br>
+    <input type="checkbox" name="chkHeroes" value="3">Chuño <br>
+    <input type="checkbox" name="chkHeroes" value="4">Papi micky <br>
+
+    <!--opciones en circulito-->
+    <h4>Opciones</h4>
+    <input type="radio" name="rdoFamosos" value="1">choche <br> <!--rdoFamosos: para q se marque solo una opcion-->
+    <input type="radio" name="rdoFamosos" value="2">huevito rey <br>
+    <input type="radio" name="rdoFamosos" value="3">lad cobra
+    <input type="radio" name="rdoFamosos" value="4">checho del boom
+
+    <!--se supone q tendria q avisarte si esta mal-->
+    <input type="email">
+    <input type="url">
+    <input type="tel">
+
+</body>
+</html>
