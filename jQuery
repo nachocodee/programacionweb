@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>   
+    <title>jQuery</title>
+    <script>
+       // $(document).ready(function(){
+        $(function(){
+            alert("hola mundo jQuery");
+            $(".btnEjecutar").click(function()//cuando el usuario haga click en el boton se ejecuta el evento
+            {
+                alert('boton presionar');//evento
+                $('#mensaje1').hide();//hide=ocultar oculat h1
+                alert('el valor del numero es:' +('.numero').val())//capturar valor
+            });
+
+
+        });
+    </script>
+</head>
+<body>
+    <h1 id="mensaje1">Hola mundo</h1>
+    <h2 class="mensaje2">Buenos dias, Buenas tardes</h2>
+    <h4>Hola carlita....</h4>
+    <input type="text" class="numero">
+    <button class="btnEjecutar"> ejecutar </button>   
+</body>
+</html>
